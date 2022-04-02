@@ -54,6 +54,18 @@ intersphinx_mapping = {
          'numpy':('http://docs.scipy.org/doc/numpy',None),
 }
 
+# -- bibtex configuration settings ---------------------------------------------------------
+
+bibtex_bibfiles = ['13_dir/$_14-reference-1-book-food-method.bib',
+                            '13_dir/$_14-reference-2-article-food-method.bib',
+                            '13_dir/$_14-reference-3-book-food-ref.bib',
+                            '13_dir/$_14-reference-4-article-food-ref.bib',
+                            '13_dir/$_14-reference-5-misc-ontology.bib',
+                            '13_dir/$_14-reference-6-misc-data.bib',
+                            '13_dir/$_14-reference-7-misc-web.bib',
+                            '13_dir/$_14-reference-8-article-technology.bib',
+                           ]
+
 # -- Options for Napoleon Extension --------------------------------------------
 
 # Parse Google style docstrings.
@@ -183,7 +195,7 @@ pygments_style = 'sphinx'
 # -- Options for HTML output ---------------------------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages. See the documentation for a list of built-in themes.
-#html_theme = "sphinx_rtd_theme"
+html_theme = "sphinx_rtd_theme"
 
 # Theme options are theme-specific and customize the look and feel of a theme further.
 #html_theme_options = {}
